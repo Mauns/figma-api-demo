@@ -45,7 +45,7 @@ if __name__ == '__main__':
     parser.add_argument('file_key', type=str, help='file key from Figma for symbols')
     args = parser.parse_args()
 
-    API_TOKEN = 'REPLACE_ME'
+    API_TOKEN = '608-279a6941-10e6-4d6a-85c2-4416757be7ca'
 
     url = "https://api.figma.com/v1/files/{}".format(args.file_key)
     headers = {'X-Figma-Token': API_TOKEN}
